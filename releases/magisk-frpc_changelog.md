@@ -1,6 +1,4 @@
-## V2.9
+## v2.9.1
 
-- 更新：FRPC程序为**v0.40.0**，点击查看[FRPC更新日志](https://github.com/fatedier/frp/releases/tag/v0.40.0)
-- 增加：FRPC程序运行时的CPU使用率
-- 增加：FRPC物理内存使用情况
-- 优化：部分逻辑的处理
+- 修复：含有busybox指令环境致使的系统命令调用错误
+- 修复：文件在Magisk更新链接下载安装时提示“缺失校验文件”
